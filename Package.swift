@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "FileBuddy",
+    name: "Tots",
     platforms: [.macOS(.v14)],
     targets: [
         .executableTarget(
-            name: "FileBuddy",
-            path: "Sources/FileBuddy"
-        ),
+            name: "Tots",
+            path: "Sources/Tots"
+        )
     ]
 )

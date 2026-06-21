@@ -1,9 +1,6 @@
-project_name = "filebuddy"
+project_name = "tots"
 
-[tasks.build]
-command = "swift build"
-description = "Build the Swift package"
-
-[tasks.format]
-command = "swift format --in-place --recursive Sources/"
-description = "Format Swift source files"
+[tasks]
+build = "strudel build"
+format = "swift format --in-place --recursive Sources/"
+clean = "strudel clean"

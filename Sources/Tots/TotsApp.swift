@@ -1,9 +1,9 @@
 import SwiftUI
 
 @main
-struct FileBuddyApp: App {
+struct TotsApp: App {
   var body: some Scene {
-    WindowGroup("FileBuddy") {
+    WindowGroup("Tots") {
       ContentView()
         .frame(minWidth: 800, minHeight: 520)
     }
