@@ -2,5 +2,6 @@ project_name = "tots"
 
 [tasks]
 build = "strudel build"
+install = ":build --install"
 format = "swift format --in-place --recursive Sources/"
 clean = "strudel clean"

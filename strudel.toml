@@ -3,3 +3,6 @@ name         = "Tots"
 bundle_id    = "com.breakfastlabs.tots"
 version      = "0.1.0"
 build_number = "1"
+
+[build]
+icon.src = "resources/bagel.png"
