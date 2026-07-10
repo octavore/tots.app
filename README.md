@@ -15,6 +15,10 @@ strudel clean
 swift format --in-place --recursive Sources/
 ```
 
+## Credits
+
+<a href="https://www.flaticon.com/free-icons/bagel" title="bagel icons">Bagel icon created by Freepik - Flaticon</a>
+
 ## License
 
 MIT
