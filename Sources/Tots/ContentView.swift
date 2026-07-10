@@ -19,10 +19,13 @@ struct ContentView: View {
       }
       .navigationSplitViewColumnWidth(min: 220, ideal: 260)
     } detail: {
-      switch mode {
-      case .extensions: detailView
-      case .apps: appsDetailView
+      Group {
+        switch mode {
+        case .extensions: detailView
+        case .apps: appsDetailView
+        }
       }
+      .navigationSplitViewColumnWidth(min: 400, ideal: 640)
     }
     .toolbar {
       ToolbarItem(placement: .primaryAction) {
