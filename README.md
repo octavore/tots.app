@@ -6,7 +6,7 @@
 
 A macOS app for managing file extensions and the apps that handle them, including updating the default handler for an extension.
 
-Tots scans `/Applications`, `/System/Applications`, and `~/Applications` for installed apps and their declared document types. Browse either by extension, or by app.
+Tots scans `/Applications`, `/System/Applications`, and `~/Applications` for installed apps and their declared document types. Supports browsing by extension or by app.
 
 <p>
   <img src="docs/images/browse-by-extension.png" width="49%" alt="Browsing handlers by file extension" />
