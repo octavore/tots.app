@@ -1,7 +1,7 @@
 [app]
 name         = "Tots"
 bundle_id    = "com.breakfastlabs.tots"
-version      = "0.1.0"
+version      = "0.1.1"
 build_number = "1"
 
 [build]
