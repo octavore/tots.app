@@ -13,6 +13,10 @@ Tots scans `/Applications`, `/System/Applications`, and `~/Applications` for ins
   <img src="docs/images/browse-by-app.png" width="49%" alt="Browsing handlers by app" />
 </p>
 
+## Download
+
+Download the latest build from the [releases page](https://github.com/octavore/tots.app/releases).
+
 ## Develop
 
 Requires macOS 14+, Swift 6, and [strudel](https://github.com/octavore/strudel) for building/signing/packaging.
